@@ -1,7 +1,7 @@
 <h1>CHALLENGE ENCRIPTADOR ALURA</h1>
 <h2>Programa de encriptado/desencriptado de textos</h2>
 
--El Chalenge fue realizado utlizando los conceptos trabajados durante el curso sobre HTML, CSS Y JavaScript.
+-El Challenge fue realizado utlizando los conceptos trabajados durante el curso sobre HTML, CSS Y JavaScript.
 
 -El programa consta de 2 cuadros, uno de input donde se debe colocar el texto a encriptar o desencriptar, y el segundo es un cuadro de output
 donde va a figurar el mensaje encriptado o desencriptado.
