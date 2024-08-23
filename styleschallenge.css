@@ -77,7 +77,6 @@
     height: 100%;
     margin-bottom: 0px; /*Este es el espacio antes de los botones */
     font-size: 2rem;
-    text-transform: lowercase;
     font-family: Inter, sans-serif;
     font-weight: 500;
     color:#0A3871;
