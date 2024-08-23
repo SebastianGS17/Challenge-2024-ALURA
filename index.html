@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleschallenge.css">
+    <script src="scriptchallenge.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="body__encriptador">
+   
+    <main class="main__encriptador">
+        
+        <header class="header__encriptador">
+            <img src="/assets/Logo.png" alt="Logo de Alura" class="header__logo__alura">
+           
+        </header>
+        
+            <div class="cuadros">
+             
+              <div class="div1__cuadro__input">
+                <div class="textarea__input">
+                    <textarea type="text" onkeypress="return 'abcdefghijklmnñopqrstuvwxyz'.includes(event.key)"           
+                    id="mensajeUsuario" class="textarea__input__cuadro" placeholder=" Ingrese el texto a encriptar" ></textarea>
+                
+                    <div class="div__advertencia">
+                        <p class="boton__advertencia">
+                            <img src="/assets/Group.png" alt="signo de exclamación">
+                        Solo letras minúsculas y sin acentos   
+                        </p>
+                    </div>
+                
+                    <div class="div1__boton__input">
+                        <button  style="cursor:pointer" id="botonEncriptar" onclick="botonEcriptarMensaje();" class="boton__input__encriptar">Encriptar</button>
+                        <button  style="cursor:pointer" id="botonDesencriptar" onclick="botonDesencriptarMensaje();" class="boton__input__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+               
+                <div class="div2__cuadro__output">
+                    <div class="textarea__elementos">
+                        <img  id="imagenMuñeco"  src="/assets/giphy.gif" alt="imagen de un muñeco" class="imagen__output__centro">
+                        <textarea type="lowercase" id="mensajeEncriptado"  class="textarea__output" placeholder="Ningún mensaje fue encontrado                       Ingresa el texto que desees encriptar o desencriptar."></textarea>   
+                <div class="div2__boton__output">
+                    <button style="cursor:pointer" id="botonCopiar" onclick="botonCopiarMensaje();"  class="boton__output__copiar">Copiar</button>
+                </div>
+                    </div>  
+               </div> 
+            </div>  
+            
+                
+        <footer class="footer__encriptador">
+        <p>Creado por Sebastián Silva</p>
+        </footer>
+    </main>
+</body>
+</html>
