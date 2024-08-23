@@ -56,10 +56,10 @@ function limpiarEncriptador(){
         width: 600,
         padding: "2em",
         color: "#E1D7B7",
-        background: "#E5E5E5  url(/assets/pngtree-the-sky-is-dotted-with-stars-and-light-spots-png-image_4201016.png)",
+        background: "#E5E5E5  url(./assets/pngtree-the-sky-is-dotted-with-stars-and-light-spots-png-image_4201016.png)",
         backdrop: `
           rgba(0,0,123,0.4)
-          url("/assets/cat-rainbow.gif")
+          url("./assets/cat-rainbow.gif")
           top
           no-repeat
         `
